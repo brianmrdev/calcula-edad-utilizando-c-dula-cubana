@@ -1,8 +1,11 @@
 
 #  Calcular edad utilizando una cédula cubana
 
-Este código calcula la edad de una persona cubana utilizando su cédula de identidad. La función strptime() se usa para convertir la cadena de caracteres de la cédula de identidad en un objeto datetime. La función datetime.now() obtiene la fecha actual y se usa con la función relativedelta() para calcular la edad de la persona. Luego la edad se imprime en un mensaje. El código también tiene una línea adicional para ajustar la edad si la persona tiene más de 100 años.
+Este código es una función que calcula la edad de una persona cubana a partir de un número de cedula. Primero, comprueba si el número de cedula es un número válido de 11 dígitos. Luego, extrae la fecha de nacimiento del número de cedula y la almacena en una variable. Después, convierte la fecha de nacimiento en un objeto de datetime. Finalmente, calcula la edad de la persona utilizando la función relativedelta y la muestra en pantalla.
+
 ## Configurar y ejecutar
+
+
 
 1. Clonamos el repo
 ```bash
